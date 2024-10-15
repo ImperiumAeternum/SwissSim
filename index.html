@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Swiss Tournament</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simple Swiss Tournament</h1>
+    <div id="editControls">
+        <label for="numPlayers">Number of players:</label>
+        <input type="number" id="numPlayers" min="2" value="8">
+        <label for="numRounds">Number of rounds:</label>
+        <input type="number" id="numRounds" min="1" value="3">
+        <button id="generateTournament">Generate/Update Tournament</button>
+    </div>
+    <div id="tournament" class="tournament"></div>
+    <script src="script.js"></script>
+</body>
+</html>

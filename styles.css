@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tournament {
+    display: flex;
+    flex-direction: column;
+}
+.round {
+    margin-bottom: 20px;
+}
+.match {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+#editControls {
+    margin-bottom: 20px;
+}
+.player {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.score {
+    width: 30px;
+    text-align: center;
+}body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tournament {
+    display: flex;
+    flex-direction: column;
+}
+.round {
+    margin-bottom: 20px;
+}
+.match {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+#editControls {
+    margin-bottom: 20px;
+}
+.player {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.score {
+    width: 30px;
+    text-align: center;
+}
